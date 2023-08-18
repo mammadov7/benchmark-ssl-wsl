@@ -8,6 +8,7 @@
 - Next graph represents the AUC scores of the two backbones initialized with ImageNet/random weights at different image resolutions 224x224 pixels and 256x256 pixels: 
 ![plot](./output.png)
 
-**Is it worth doing long SSL training?** Next plots demonstrate the pre-training time of the _Backbone_ to the performance of the pipeline, where each 26 _epochs_ for **ViT_Small** takes and each 35 _epochs_ for **ResNet18** takes 12 hours. And we see that longer training improves the final performance and stabilizes the backbone. On the other hand, short training as well achieves comparable results to long ones. Especially, it's the case for _ResNet18_, with only 12 hours of training it gets very similar results to 72 hours.
+**Is it worth doing long SSL training?**
+- Next plots demonstrate the pre-training time of the _Backbone_ to the performance of the pipeline, where each 26 _epochs_ for **ViT_Small** takes and each 35 _epochs_ for **ResNet18** takes 12 hours. And we see that longer training improves the final performance and stabilizes the backbone. On the other hand, short training as well achieves comparable results to long ones. Especially, it's the case for _ResNet18_, with only 12 hours of training it gets very similar results to 72 hours.
 
 ![plot](./duration.png)
